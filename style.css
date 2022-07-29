@@ -1,0 +1,112 @@
+
+/* https://cssgradient.io/ 
+  https://developer.mozilla.org/en-US/docs/Web/CSS/outline*/
+
+#weatherDashboard {
+  text-align: center;
+  color: black;
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  line-height: 70px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 3px;
+  outline: 5px solid;
+}
+
+#citySearch{
+  font-style:normal;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.control {
+  box-sizing: border-box;
+  clear: both;
+  font-size: 1rem;
+  position: relative;
+  text-align: inherit;
+}
+
+#leftColumn{
+  background-color:rgba(219, 218, 218, 0.432);
+  padding-right: 10px;
+  padding: 20px;
+  outline: 5px solid;
+
+}
+#Searchbutton.butttonis-info{
+  padding: 10px 35px;
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+    outline: none;
+    transition: .6s ease;
+
+}
+
+/*  #forecast{
+  background-color: rgba(219, 218, 218, 0.432);
+  padding-right: 5px;
+  padding: 10px;
+  outline: 5px solid;
+  top right: 5%;
+}*/
+
+li {
+
+border-color: rgba(128, 128, 128, 0.308); 
+margin-left: 5px;
+padding: 20px;
+border-style: solid;
+border-width: thin;
+}
+
+#currentWeatherDisplay{
+  border-color: rgba(192, 192, 192, 0.247);
+  margin-left: 1px;
+  
+}
+
+#currentCity.title{
+  text-align: left;
+  font-weight:600 ;
+  font-size: 37px;
+  margin-left: -20px;
+
+
+}
+
+h1 #currentCity.title{
+  text-align: left;
+  font-weight:600 ;
+  font-size: 37px;
+  margin-left: -20px;
+
+}
+
+p {
+  margin: 20px;
+}
+
+span{
+  text-align: left;
+}
+
+#forecastTitle{
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 25px;
+  font-weight: 500;
+ 
+}
+
+#card-row {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.five-day-card {
+  background-color: rgba(190, 115, 211, 0.521);
+  margin: 5px;
+  border-radius: 10px;
+}
