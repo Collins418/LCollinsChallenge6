@@ -1,5 +1,5 @@
 # LCollinsChallenge6
-'Repo-https://github.com/Collins418/Weatherdashboard'
+'Repohttps://github.com/Collins418/LCollinsChallenge6'
 
 'Deploy-'
 
