@@ -62,8 +62,8 @@ renderList();
 // current weather for the city  API & key https://openweathermap.org/forecast5, How to-https://www.youtube.com/watch?v=nGVoHEZojiQ//
 function getWeather() {
 
-    var apiKey = "c7f717f33a016acd904cdd7cd8130c72";
-    var queryUrl = "http://api.openweathermap.org/data/2.5/weather?q=" + searchCity.val() + "&appid=" + apiKey;
+  var apiKey = "c7f717f33a016acd904cdd7cd8130c72";
+  var queryUrl = "http://api.openweathermap.org/data/2.5/weather?q=" + searchCity.val() + "&appid=" + apiKey;
 
     //ajax call for current weather
     $.ajax({
