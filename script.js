@@ -62,7 +62,7 @@ renderList();
 // current weather for the city  API & key https://openweathermap.org/forecast5, How to-https://www.youtube.com/watch?v=nGVoHEZojiQ//
 function getWeather() {
 
-    var apiKey = "f8614b3c7fc182138b48e0e6b3e5817e";
+    var apiKey = "c7f717f33a016acd904cdd7cd8130c72";
     var queryUrl = "http://api.openweathermap.org/data/2.5/weather?q=" + searchCity.val() + "&appid=" + apiKey;
 
     //ajax call for current weather
@@ -100,7 +100,7 @@ function getWeather() {
 }
 // UV index//
 function UVIndex(ln, lt) {
-    var queryUrl = "http://api.openweathermap.org/data/2.5/uvi?appid=f8614b3c7fc182138b48e0e6b3e5817e" + "&lat=" + lt + "&lon=" + ln;
+    var queryUrl = "http://api.openweathermap.org/data/2.5/uvi?appid=c7f717f33a016acd904cdd7cd8130c72" + "&lat=" + lt + "&lon=" + ln;
 
     $.ajax({
             url: queryUrl
@@ -115,7 +115,7 @@ function Get5DayForecast() {
 
     var queryUrlForecast =
         "http://api.openweathermap.org/data/2.5/forecast?q=" +
-        searchCity.val() + "&appid=f8614b3c7fc182138b48e0e6b3e5817e";
+        searchCity.val() + "&appid=c7f717f33a016acd904cdd7cd8130c72";
     $("#card-row")
         .empty();
 
