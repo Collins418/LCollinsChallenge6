@@ -1,9 +1,10 @@
 
-'Repo-https://github.com/Collins418/Weatherdashboard'
+'Repo-https://github.com/Collins418/LCollinsChallenge6'
 
 'Deploy-'
 
-'Video below'
+'Video below'[Weather dashboard  .webm](https://user-images.githubusercontent.com/106499144/181865783-cb123ea6-a039-4ede-a720-71eddeca9c1d.webm)
+
 
 '[Weather dashboard  .webm](https://user-images.githubusercontent.com/106499144/181825212-18e0fd37-77b6-43cf-a14e-6565db42d837.webm)'
 
